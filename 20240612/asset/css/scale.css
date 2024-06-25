@@ -1,0 +1,27 @@
+.grid{
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    gap: 10px;
+}
+.item{
+    width: 100px;
+    height: 100px;
+    border: 2px dashed #dedede;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.cube{
+    width: 50%;
+    height: 50%;
+    background-color: brown;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cube.x05 {
+    transform: scale(0.5);
+}
+.cube.x20 {
+    transform: scale(2);
+}

@@ -1,0 +1,40 @@
+:root{
+    --cube-size:50px
+}
+
+.wrap{
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    background: rgb(255, 17, 0);
+    
+    
+}
+.box{
+    position: relative;
+    width: var(--cube-size);
+    height: var(--cube-size);
+    background: yellow;
+    align-items: center;
+    animation-name: move;
+    animation-duration: 2.5s;
+}
+@keyframe move {
+    form{
+        :left 0；
+    }
+    to{
+        :left calc:(100%-50)；
+    }
+    
+    
+
+}
+
+.fn{
+    margin: 20px;
+    padding: 20px;
+    position: relative;
+    z-index: 1;
+    
+}

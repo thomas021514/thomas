@@ -1,0 +1,14 @@
+html
+,body{
+    background: #001aff;
+  
+}
+.cube {
+    color: white;
+    background: #c0f7ff48;
+    border-width: 2px width ;
+}
+.face {
+    width: 50px;
+    height: 50px;
+}

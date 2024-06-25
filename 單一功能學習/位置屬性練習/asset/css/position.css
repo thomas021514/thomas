@@ -1,0 +1,20 @@
+.wrap{
+    background: #ce4545;
+    width: 100%;
+    height:block ;
+    padding: 20px;
+}
+
+.wrap .absolute{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    background: #eb8888;
+}
+
+.item .relative{
+    position: relative;
+    width: 50px;
+    height: auto;
+    background-color: #9e3b3b;
+}
