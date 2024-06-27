@@ -1,0 +1,69 @@
+html,
+body{
+    background: rgb(115, 182, 245);
+    overflow: hidden;
+}
+
+.cloud {
+    margin-top: 200px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 200px;
+    display: flex;
+    position: absolute;
+    width: 600px;
+    height: 200px;
+    animation-duration: 2.5s;  
+    animation-direction:alternate; 
+    animation-iteration-count: infinite;
+    animation-name: move;
+}
+
+.cloud::before {
+    content:'';
+    background-color: inherit;
+    border-radius: 200px;
+    display: flex;
+    position: absolute;
+    width: 150px;
+    height: 160px;
+    left: 150px;
+    top:-100px;
+}
+
+.cloud::after {
+    content:'';
+    background-color: inherit;
+    border-radius: 200px;
+    display: flex;
+    position: absolute;
+    width: 250px;
+    height: 200px;
+    left: 200px;
+    top: -70px;
+    
+}
+.cloud.i2{
+    top: 400px;
+    left: 200px;
+    scale: (0.8);
+    animation-duration: 6s;
+    animation-direction:alternate; 
+    animation-iteration-count: infinite;
+}
+.cloud.i3{
+    top: 700px;
+    left: 400px;
+    scale: (0.7);
+    animation-duration: 7s;
+    animation-direction:alternate; 
+    animation-iteration-count: infinite;
+}
+
+@keyframes move {
+    from{
+        margin-left: 0;
+    }
+    to{
+        margin-left: 100%;
+    }
+}
