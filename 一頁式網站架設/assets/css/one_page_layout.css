@@ -1,0 +1,62 @@
+html,
+body {
+    background: #000;
+    font-family: "Noto Sans TC", sans-serif;
+    font-optical-sizing: auto;
+
+}
+
+
+.header {
+    background: white;
+    font-size: 1.8rem;
+    height: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    color: #000;
+    justify-content: center;
+}
+
+.menu>ul {
+    font-size: 1.8rem;
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px;
+    gap: 20px;
+
+}
+
+.menu>ul a {
+    display: grid;
+    gap: 3px;
+    text-align: center;
+}
+
+.menu .en {
+    font-size: 0.8rem;
+    font-weight: 300;
+
+}
+
+.menu .tw {
+    font-size: 1.1rem;
+    font-weight: 300;
+
+}
+
+a:hover {
+    color: rgb(255, 0, 0);
+    font-weight: 700;
+    border-left: #000;
+    border-right: #000;
+}
+
+.logo-image {
+    display: block;
+    height: auto;
+    width: 250px;
+    margin: 30px;
+}
+
